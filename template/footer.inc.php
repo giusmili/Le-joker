@@ -1,3 +1,6 @@
 <footer>
-        <p>&copy; 2024 - Informations sur le film Le Joker</p>
+        <p>&copy;  
+            <?= $_years->format('Y') ?> - 
+            <?= User::$info ?>
+        </p>
 </footer>
