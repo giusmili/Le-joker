@@ -1,5 +1,5 @@
 <?php
-    include_once __DIR__ .'/controller/baseController.php';
+    require_once __DIR__ ."/controller/baseController.php";
     include_once __DIR__ .'/template/header.inc.php'
 ?>
 <body>
@@ -10,7 +10,7 @@
     
 
         <h1>
-            <span aria-hidden="true">🤡</span> <?php print title ?>
+            <span aria-hidden="true">🤡</span> <?= $newtitle->title ?>
         </h1>
     </header>
 
@@ -50,7 +50,7 @@
         <!-- Section Date de Sortie -->
         <section class="release-date">
             <h2>Date de Sortie</h2>
-            <p>9 octobre <time datetime="2019-09-09">2019</time></p>
+            <p><time datetime="<?= $_date?>"><?= $_years->format('d/M/Y') ?></time></p>
         </section>
 
         <!-- Bouton vers AlloCiné -->
