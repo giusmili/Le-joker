@@ -1,4 +1,5 @@
 <?php
+    include_once __DIR__ .'/controller/baseController.php';
     include_once __DIR__ .'/template/header.inc.php'
 ?>
 <body>
@@ -9,7 +10,7 @@
     
 
         <h1>
-            <span aria-hidden="true">🤡</span> Le Joker
+            <span aria-hidden="true">🤡</span> <?php print title ?>
         </h1>
     </header>
 
