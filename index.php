@@ -7,11 +7,11 @@
     après une série de tragédies et d'humiliations...">
     <title>Le Joker - Film</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/site.webmanifest">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="public/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="public/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="public/favicon/favicon-16x16.png">
+    <link rel="manifest" href="public/favicon/site.webmanifest">
+    <link rel="stylesheet" href="public/css/style.css">
 </head>
 <body>
     <!-- En-tête de la page -->
@@ -25,7 +25,10 @@
     <main>
         <!-- Section Affiche du film -->
         <section class="movie-poster">
-            <img src="https://wave.fr/images/1916/07/joker-3-bonnes-raisons-aller-voir-film-cinema-aujourdhui.jpg" alt="Affiche du film Le Joker">
+            <img 
+                src="https://wave.fr/images/1916/07/joker-3-bonnes-raisons-aller-voir-film-cinema-aujourdhui.jpg" 
+                alt="Affiche du film Le Joker" 
+                loading="lazy">
         </section>
 
         <!-- Section Storyline -->
