@@ -9,11 +9,14 @@
     $navigator =  $_SERVER["PHP_SELF"];
     $sign = $_SERVER["SERVER_SIGNATURE"];
 
-    # classe ref
-    class User{
-        public $title = "Le Joker";
-        static $info = "Informations sur le film Le Joker";
-    }
+    
+   /*  Joaquin Phoenix dans le rôle d'Arthur Fleck (Joker)
+    Robert De Niro dans le rôle de Murray Franklin
+    Zazie Beetz dans le rôle de Sophie Dumond
+    Frances Conroy dans le rôle de Penny Fleck */
+
+
+   
 
     # instance
     $newtitle = new User();

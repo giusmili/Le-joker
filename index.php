@@ -65,15 +65,18 @@
        
     </main>
 
-    <!-- footer-->
+    <!-- footer et directive -->
     <?php
+        // commentaire court
+        /* long */
+        # test
         include_once __DIR__ .'/template/footer.inc.php'
     ?>
 
-    <pre>
+    <!-- <pre>
         <?php
-            print_r($_SERVER)
+            # print_r($_SERVER)
         ?>
-    </pre>
+    </pre> -->
 </body>
 </html>
