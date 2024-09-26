@@ -38,7 +38,8 @@
 
         <!-- Section Cast -->
         <section class="cast">
-            <h2>Cast Principal</h2>
+            <h2>Cast Principal : </h2>
+            <?= $sign ?>
             <ul>
                 <li><strong>Joaquin Phoenix </strong>dans le rôle d'Arthur Fleck (Joker)</li>
                 <li><strong>Robert De Niro</strong> dans le rôle de Murray Franklin</li>
@@ -61,12 +62,18 @@
                 </span>Voir la bande-annonce
             </a>
         </section>
+       
     </main>
 
     <!-- footer-->
     <?php
         include_once __DIR__ .'/template/footer.inc.php'
     ?>
-   
+
+    <pre>
+        <?php
+            print_r($_SERVER)
+        ?>
+    </pre>
 </body>
 </html>
