@@ -54,10 +54,11 @@
             ?>
             <?php foreach($actors as $role):?>
             <ul>
-                <li><strong><?= $role['prenom']." ".$role['nom'] ?></strong> <?= $role['role'] ?></li>
-               <!--  <li><strong>Robert De Niro</strong> dans le rôle de Murray Franklin</li>
-                <li><strong>Zazie Beetz</strong> dans le rôle de Sophie Dumond</li>
-                <li><strong>Frances Conroy</strong> dans le rôle de Penny Fleck</li> -->
+                <li>
+                    <strong><?= $role['prenom']." ".$role['nom'] ?>
+                    </strong> <?= $role['role'] ?>
+                </li>
+             
             </ul>
             <?php endforeach;?>
         </section>
