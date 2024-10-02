@@ -14,7 +14,7 @@
         </h1>
     </header>
 
-    <!-- Contenu principal -->
+    <!-- Contenu principal --> 
     <main>
         <!-- Section Affiche du film -->
         <section class="movie-poster">
@@ -42,14 +42,8 @@
             <?= $sign ?>
             <!--modifier -->
             <?php
+                
                 $actors =  $newtitle->actorsInfo();
-    
-              /*   foreach ($actors as $key => $index) {
-                    foreach ($index as $key => $value) {
-                        print "$key : $value\n";
-                    }
-                    // code...
-                } */
 
             ?>
             <?php foreach($actors as $role):?>
