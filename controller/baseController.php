@@ -15,6 +15,9 @@
     Zazie Beetz dans le rôle de Sophie Dumond
     Frances Conroy dans le rôle de Penny Fleck */
 
+    class User{
+        public $title = "Le Joker";
+    }
 
    
 

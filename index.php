@@ -40,6 +40,7 @@
         <section class="cast">
             <h2>Cast Principal : </h2>
             <?= $sign ?>
+            <!--modifier -->
             <ul>
                 <li><strong>Joaquin Phoenix </strong>dans le rôle d'Arthur Fleck (Joker)</li>
                 <li><strong>Robert De Niro</strong> dans le rôle de Murray Franklin</li>
