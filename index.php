@@ -27,14 +27,22 @@
         <!-- Section Storyline -->
         <section class="storyline">
         <?php
-             # $actors =  $newtitle->actorsInfo();
+            # $actors =  $newtitle->actorsInfo();
              $story = $newtitle->storyline();
-             # print_r($story) 
+            # print_r($story) 
          
-                print "<h2>".$story['title']."</h2>\n"; 
-                print "<p>".$story['storyline']."<p>";
+            /*  print "<h2>".$story['title']."</h2>\n"; 
+            print "<p>".$story['storyline']."<p>"; */
+        ?>
+            
+                <h2>
+                    <?= $story['title'] ?>
+                </h2>
+                <p>
+                    <?= $story['storyline'] ?>
+                </p>
              
-            ?>
+           
         
              
             <!-- <h2>Histoire</h2>
