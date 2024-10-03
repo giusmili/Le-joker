@@ -91,6 +91,10 @@
                     video_file
                 </span>Voir la bande-annonce
             </a>
+            <?php
+                # print_r($_SERVER)
+                include_once "./model/config.php";
+            ?>
         </section>
        
     </main>
@@ -104,9 +108,7 @@
     ?>
 
     <!-- <pre>
-        <?php
-            # print_r($_SERVER)
-        ?>
+       
     </pre> -->
 </body>
 </html>
