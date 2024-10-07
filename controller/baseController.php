@@ -9,7 +9,7 @@
     $navigator =  $_SERVER["PHP_SELF"];
     $sign = $_SERVER["SERVER_SIGNATURE"];
 
-    # connection bdd
+    # connection bdd avec principe de responsabilité
 
     require_once './model/userModel.php';
         
