@@ -1,5 +1,14 @@
 <?php
-   
+# variables
+$_versionPhp = phpversion();
+$lang = ["fr","en","it"];
+$styleCss = "public/css/style.css";
+$_date = date('Y-d-m');
+$_years = new DateTime();
+$navigator =  $_SERVER["PHP_SELF"];
+$sign = $_SERVER["SERVER_SIGNATURE"];
+
+   # la bdd
     $host = "localhost";
     $db_name = "cine";
     $username = "root";
