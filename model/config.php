@@ -22,7 +22,7 @@ $sign = $_SERVER["SERVER_SIGNATURE"];
             die("Connection impossible : " . $e->getMessage());
     }
  
-    
+    # ci-dessous un procédé plus simple
     
     /* try{
         $_pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;
