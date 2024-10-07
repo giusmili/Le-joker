@@ -26,9 +26,10 @@
 ```
 > Comment puis-je itérer sur le tableau intier?
 
-## Explication :
+## 🤡 Explication :
 * config.php : Ce fichier établit la connexion à la base de données cine via PDO.
 * userModel.php : La fonction getUsers() récupère les données de la table user sans utiliser de classes.
 * userController.php : Le contrôleur appelle la fonction getUsers() et passe les données à la vue.
-* userView.php : Affiche les utilisateurs dans une liste.
 * index.php : Point d'entrée de l'application, charge le contrôleur qui orchestre tout.
+
+![cover](./public/asset/giusmili-lead-developer.svg)
