@@ -62,20 +62,18 @@
             <h2>Cast Principal : </h2>
             <?= $sign ?>
             <!--modifier -->
-            <?php
-                
-                $actors =  $newtitle->actorsInfo();
-
-            ?>
-            <?php foreach($actors as $role):?>
             <ul>
+                <?php foreach ($users as $user): ?>
                 <li>
-                    <strong><?= $role['prenom']." ".$role['nom'] ?>
-                    </strong> <?= $role['role'] ?>
+                    <?= "<strong>".htmlspecialchars($user['firstname'])." 
+                    ". htmlspecialchars($user['lastname'])."</strong>
+                    ".htmlspecialchars($user['role'])?>
                 </li>
-             
+
+            
+            <?php endforeach; ?>  
             </ul>
-            <?php endforeach;?>
+          
         </section>
 
         <!-- Section Date de Sortie -->

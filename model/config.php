@@ -1,6 +1,21 @@
 <?php
+   
+    $host = "localhost";
+    $db_name = "cine";
+    $username = "root";
+    $password = "";
     
-    try{
+        try {
+            $conn = new PDO("mysql:host=$host;dbname=$db_name", $username, $password);
+            $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            $conn->exec("set names utf8");
+        } catch (PDOException $e) {
+            die("Connection failed: " . $e->getMessage());
+    }
+ 
+    
+    
+    /* try{
         $_pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;
         $_bdd = new PDO('mysql:host=localhost; 
                 dbname=cine','root','', 
@@ -18,7 +33,7 @@
            #  on fait un test sur la bdd avant de l'afficher
             print "<pre>";
             
-            print_r($_data);
+            print_r($_data["firstname"]);
             
             print "</pre>"; 
            
@@ -32,4 +47,4 @@
      catch(Exception $e){
         die("Error Data base de votre base ".$e->getMessage());
          //en cas d'érreur on affiche un message
-}
+} */
