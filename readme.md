@@ -24,7 +24,7 @@
         print "$key : $index\n";
     }
 ```
-> Comment puis-je itérer sur le tableau intier?
+> Méthode de travail pour une performance optimale
 
 ## 🤡 Explication :
 * config.php : Ce fichier établit la connexion à la base de données cine via PDO.
