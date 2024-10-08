@@ -41,6 +41,8 @@
                 <p>
                     <?= $story['storyline'] ?>
                 </p>
+
+                
                
          
         </section>
@@ -64,6 +66,8 @@
              
             </ul>
             <?php endforeach;?>
+            <!-- test bdd -->
+            <?php include_once __DIR__ .'/model/model.php'?>
         </section>
 
         <!-- Section Date de Sortie -->
