@@ -54,10 +54,10 @@
             <!--modifier -->
             <?php
                 
-                $actors =  $newtitle->actorsInfo();
+                //$actors =  $newtitle->actorsInfo();
 
             ?>
-            <?php foreach($actors as $role):?>
+           <!--  <?php foreach($actors as $role):?>
             <ul>
                 <li>
                     <strong><?= $role['prenom']." ".$role['nom'] ?>
@@ -65,7 +65,7 @@
                 </li>
              
             </ul>
-            <?php endforeach;?>
+            <?php endforeach;?> -->
             <!-- test bdd -->
             <?php include_once __DIR__ .'/model/model.php'?>
         </section>
