@@ -27,12 +27,7 @@
         <!-- Section Storyline -->
         <section class="storyline">
         <?php
-            # $actors =  $newtitle->actorsInfo();
-             $story = $newtitle->storyline();
-            # print_r($story) 
-         
-            /*  print "<h2>".$story['title']."</h2>\n"; 
-            print "<p>".$story['storyline']."<p>"; */
+             $story = $newtitle->storyline(); 
         ?>
             
                 <h2>
@@ -52,22 +47,18 @@
             <h2>Cast Principal : </h2>
             <?= $sign ?>
             <!--modifier -->
-            <?php
-                
-                //$actors =  $newtitle->actorsInfo();
-
-            ?>
-           <!--  <?php foreach($actors as $role):?>
             <ul>
-                <li>
-                    <strong><?= $role['prenom']." ".$role['nom'] ?>
-                    </strong> <?= $role['role'] ?>
-                </li>
-             
+                <?php
+                    include_once __DIR__ .'/model/model.php'
+                 ?>
+
             </ul>
-            <?php endforeach;?> -->
-            <!-- test bdd -->
-            <?php include_once __DIR__ .'/model/model.php'?>
+           
+          
+          
+    
+           
+        
         </section>
 
         <!-- Section Date de Sortie -->
@@ -89,16 +80,8 @@
 
     <!-- footer et directive -->
     <?php
-        // commentaire court
-        /* long */
-        # test
+     
         include_once __DIR__ .'/template/footer.inc.php'
     ?>
-
-    <!-- <pre>
-        <?php
-            # print_r($_SERVER)
-        ?>
-    </pre> -->
 </body>
 </html>
