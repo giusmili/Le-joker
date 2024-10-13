@@ -48,14 +48,14 @@
             <!--modifier -->
             <ul>
                 <?php foreach ($users as $user): ?>
-                <li>
-                    <?= "<strong>".htmlspecialchars($user['firstname'])." 
-                    ". htmlspecialchars($user['lastname'])."</strong>
-                    ".htmlspecialchars($user['role'])?>
-                </li>
+                    <li>
+                        <?= "<strong>".htmlspecialchars($user['firstname'])." 
+                        ". htmlspecialchars($user['lastname'])."</strong>
+                        ".htmlspecialchars($user['role'])?>
+                    </li>
 
             
-            <?php endforeach; ?>  
+                <?php endforeach; ?>  
             </ul>
           
         </section>
@@ -75,7 +75,7 @@
             </a>
             <?php
                 # print_r($_SERVER)
-                include_once "./model/config.php";
+                //include_once "./model/config.php";
             ?>
         </section>
        
